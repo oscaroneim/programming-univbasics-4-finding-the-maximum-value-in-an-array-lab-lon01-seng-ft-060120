@@ -3,5 +3,6 @@ def find_max_value(array)
  array.sort!
  while array[count] < array.length do 
    array.last
+   count += 1 
 end
 end
